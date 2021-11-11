@@ -1,1 +1,3 @@
-# Lab 8 - Starter
+1. The automated tests within our project pipeline would be best fit within a GitHub action that runs whenever code is pushed. This will prevent buggy code from making it into the repository and it will help us debug quicker and more efficiently. It would be useful to manually run test before pushing code, but this would not be automated. Running test after development is a bad idea because there could be an overwhelming amount of bugs to fix and it is best to handle bugs as quickly as possible because they could interfere with other parts of the project.
+2. No, testing if a function is returning the right output is different because it doesn't involve an emulation of user actions.
+3. 
